@@ -5,8 +5,8 @@ set laststatus=2
 set hlsearch
 set incsearch
 set nocompatible
-set tabstop=2
-set shiftwidth=2
+set tabstop=3
+set shiftwidth=3
 set expandtab
 filetype off
 color desert
@@ -32,6 +32,11 @@ Plugin 'kshenoy/vim-signature'
 Plugin 'dart-lang/dart-vim-plugin'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'tpope/vim-haml'
+Plugin 'dsawardekar/wordpress.vim'
+Plugin 'shawncplus/phpcomplete.vim'
+Plugin 'SirVer/ultisnips'
+Plugin 'StanAngeloff/php.vim'
+Plugin 'tpope/vim-markdown'
 call vundle#end()
 
 augroup autoformat_settings
